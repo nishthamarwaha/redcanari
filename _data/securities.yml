@@ -1,0 +1,11 @@
+- title: Red Canari<br>DevOps
+  description: Builds in security and compliance to the entire software development lifecycle from design and development through testing and deployment to operations and maintenance
+  icon: /assets/img/white/RedCanari_DevOps.png
+  hover_icon: /assets/img/white/RedCanari_DevOps.png
+  link: /#
+  
+- title: Secure Cloud<br>Transformation
+  description: Secure cloud transformation assures security, privacy and compliance at your organization as you embrace cloud technologies in your business transformation journey.
+  icon: /assets/img/Secure_Cloud.svg
+  hover_icon: /assets/img/white/Secure_Cloud.png
+  link: /#

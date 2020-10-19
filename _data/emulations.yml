@@ -1,0 +1,17 @@
+- title: Penetration<br> Testing
+  description: Penetration tests are highly technical assessments of your defense against exploitation of weaknesses in your technology infrastructure.
+  icon: /assets/img/Penetration_Testing.svg
+  hover_icon: /assets/img/white/Penetration_Testing.png
+  link: #
+  
+- title: Application <br> Assessment
+  description: Application assessments help identify weaknesses introduced during design, development, deployment and integration, and prioritize remediation.
+  icon: /assets/img/Application_Assessment.svg
+  hover_icon: /assets/img/white/Application_Assessment.png
+  link: #
+
+- title: Red Canari <br> 365
+  description: A precisely planned simulation of covert cyber warfare operations, by sophisticated threat actors, to test organizational cyber resilience.
+  icon: /assets/img/RedCanari_365.svg
+  hover_icon: /assets/img/white/RedCanari_365.png
+  link: #

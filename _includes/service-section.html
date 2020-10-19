@@ -1,0 +1,273 @@
+<section id="service" class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/AdversarialBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-1 " data-aos="fade-up">
+        <img src="{{'/assets/img/Adversarial.png' | relative_url }}" class="img-fluid" alt="" data-aos="fade-left">
+      </div>
+      <div
+        class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-2 padding_left"
+        data-aos="fade-up">
+        <div>
+          <h1>Adversarial Emulation</h1><br>
+
+          <p data-aos="fade-up"></p><br><br>
+
+          <a href="#" class="border-btn">LEARN MORE</a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background-color: #f0f0f0;background-repeat: no-repeat;padding: 35px 0px!important;">
+
+
+  <div class="container">
+
+    <div class="row">
+      {% for emulation in site.data.emulations %}
+      <div class="col-lg-4 " data-aos="fade-up">
+
+        <div class="service-card service-card-active">
+
+          <div class="service-icon">
+
+            <img class="main-img" src="{{emulation.icon | relative_url}}" data-aos="fade-up" alt="">
+
+            <img class="hover-img" src="{{emulation.hover_icon | relative_url}}" data-aos="fade-up" alt="">
+
+          </div>
+
+          <div class="service-title">{{emulation.title}}</div>
+
+          <div class="service-text">{{emulation.description}}</div>
+
+          <a href="{{emulation.link | relative_url}}" class="service-btn">>></a>
+
+
+        </div>
+
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/GRCBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
+        data-aos="fade-up">
+        <div>
+          <h1>Governance, Risk
+            &amp; Compliance<br>
+            (GRC)
+          </h1><br>
+          <p data-aos="fade-up"></p><br><br>
+          <a href="#" class="border-btn">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 " data-aos="fade-up">
+        <img src="{{'/assets/img/GRC.png' | relative_url }}" class="img-fluid" alt="" data-aos="fade-left">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/ServiceLeftBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+
+
+  <div class="container">
+
+    <div class="row">
+
+      {% for assessment in site.data.assessments %}
+      <div class="col-lg-4 " data-aos="fade-up">
+
+        <div class="service-card service-card-active">
+
+          <div class="service-icon">
+
+            <img class="main-img" src="{{assessment.icon | relative_url}}" data-aos="fade-up" alt="">
+
+            <img class="hover-img" src="{{assessment.hover_icon | relative_url}}" data-aos="fade-up" alt="">
+
+          </div>
+
+          <div class="service-title">{{assessment.title}}</div>
+
+          <div class="service-text">{{assessment.description}}</div>
+
+          <a href="{{assessment.link | relative_url}}" class="service-btn">>></a>
+
+
+        </div>
+
+
+      </div>
+      {% endfor %}
+
+
+    </div>
+
+  </div>
+
+
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/AdvisoryBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-1 " data-aos="fade-up">
+        <img src="{{'/assets/img/Advisory.png' | relative_url }}" class="img-fluid" alt="" data-aos="fade-right">
+
+      </div>
+      <div
+        class="padding_left col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-2"
+        data-aos="fade-up">
+        <div>
+          <h1>Red Canari<br>Advisory</h1><br>
+
+          <p data-aos="fade-up"></p><br><br>
+
+          <a href="#" class="border-btn">LEARN MORE</a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<section
+style="width: 100%;height:auto;min-height: 400px;background:url('assets/img/ServiceRightBG.png');background-repeat: no-repeat;padding: 35px 0px!important;">
+
+
+<div class="container">
+
+  <div class="row">
+
+    {% for advisory in site.data.advisories %}
+        <div class="col-lg-4 " data-aos="fade-up">
+  
+          <div class="service-card service-card-active">
+  
+            <div class="service-icon">
+  
+              <img class="main-img" src="{{advisory.icon | relative_url}}" data-aos="fade-up" alt="">
+  
+              <img class="hover-img" src="{{advisory.hover_icon | relative_url}}" data-aos="fade-up" alt="">
+  
+            </div>
+  
+            <div class="service-title">{{advisory.title}}</div>
+  
+            <div class="service-text">{{advisory.description}}</div>
+  
+            <a href="{{advisory.link | relative_url}}" class="service-btn">>></a>
+  
+  
+          </div>
+  
+  
+        </div>
+      {% endfor %}
+
+
+  </div>
+
+</div>
+
+
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/SecureCloudBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+
+
+  <div class="container">
+
+    <div class="row">
+
+      <div
+        class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
+        data-aos="fade-up">
+
+        <div>
+
+          <h1>Cloud<br>
+            Security
+          </h1><br>
+
+
+          <p data-aos="fade-up"></p><br><br>
+
+
+          <a href="#" class="border-btn">LEARN MORE</a>
+
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-6 d-lg-flex flex-lg-column order-1 order-lg-2 " data-aos="fade-up">
+        <img src="{{'/assets/img/SecureCloud.png' | relative_url }}" class="img-fluid" alt="" data-aos="fade-left">
+
+      </div>
+    </div>
+
+  </div>
+
+
+</section>
+<section class="d-flex align-items-center"
+  style="width: 100%;height:auto;min-height: 400px;background:url(assets/img/ServiceLeftBG.png);background-repeat: no-repeat;padding: 35px 0px!important;">
+
+
+  <div class="container">
+
+    <div class="row">
+
+      {% for security in site.data.securities %}
+      <div class="col-lg-4 " data-aos="fade-up">
+
+        <div class="service-card service-card-active">
+
+          <div class="service-icon">
+
+            <img class="main-img" src="{{security.icon | relative_url}}" data-aos="fade-up" alt="">
+
+            <img class="hover-img" src="{{security.hover_icon | relative_url}}" data-aos="fade-up" alt="">
+
+          </div>
+
+          <div class="service-title">{{security.title}}</div>
+
+          <div class="service-text">{{security.description}}</div>
+
+          <a href="{{security.link | relative_url}}" class="service-btn">>></a>
+
+
+        </div>
+
+
+      </div>
+      {% endfor %}
+
+
+    </div>
+
+  </div>
+
+
+</section>

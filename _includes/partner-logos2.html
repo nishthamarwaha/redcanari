@@ -1,0 +1,11 @@
+<section
+  style="width: 100%;height:auto;min-height: 200px;background:url(/assets/img/SmallGreyBG.png);background-repeat: no-repeat;padding: 35px 0px!important;"
+  data-aos="fade-up class="d-flex align-items-center">
+  <div class="container ">
+    <div class=" row four-row" data-aos="fade-up">
+      {% for logo in site.data.partner_logos2 %}
+      <img src="{{logo.img | relative_url}}" alt="{{logo.name}}" class="col-md-3 col-sm-6">
+      {% endfor %}
+    </div>
+  </div>
+</section>

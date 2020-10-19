@@ -1,0 +1,17 @@
+- title: Red Canari <br>Resilience Program
+  description: Strategically aligns technology surveillance, risk management, cyber incident response and oversight responsibilities for day-to-day governance at your organization.
+  icon: /assets/img/Resilience_Program.svg
+  hover_icon: /assets/img/white/Resilience_Program.png
+  link: /#
+  
+- title: Compliance<br>Assessment
+  description: Change is the only constant in the cyber risk environment. Compliance assessments are standards-based evaluations of your current security compliance posture.
+  icon: /assets/img/Compliance_Assessment.svg
+  hover_icon: /assets/img/white/Compliance_Assessment.png
+  link: /#
+
+- title: Threat and Risk<br>Assessment
+  description: Examine threats acting against existing security controls at your organization and determines risk, in terms of probability of compromise and impact severity
+  icon: /assets/img/Threat_Risk.svg
+  hover_icon: /assets/img/white/Threat_Risk.png
+  link: /#

@@ -1,0 +1,11 @@
+- title: Red Canari<br>CISO
+  description: Red Canari CISO’s are security leaders that help your organization plan and execute a purpose-built security roadmap.
+  icon: /assets/img/RedCanari_CISO.svg
+  hover_icon: /assets/img/white/RedCanari_CISO.png
+  link: /#
+  
+- title: Training<br>Programs
+  description: Application assessments help Maintain currency in key domains of cybersecurity at your organization. we carefully identify technical roles, knowledge gaps and training requirements.
+  icon: /assets/img/Training_Programs.svg
+  hover_icon: /assets/img/white/Training_Programs.png
+  link: /#

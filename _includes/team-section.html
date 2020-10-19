@@ -1,0 +1,24 @@
+<section id="team">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Connect With Us</h2>
+      <p>Lorem Something dolor money salt that’s epsom. Lorem Something dolor money salt<br>
+        that’s epsom. Lorem Something dolor money salt that’s epsom.</p>
+    </div>
+
+
+    <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+      {% for member in site.data.team_members %}
+      <div class="col-lg-3 col-md-6 mx-auto text-center">
+        <div class="team-member aos-init aos-animate" data-aos="fade-up">
+          <img src="{{member.img | relative_url}}" alt="{{member.name}}">
+          <div class="team-name">{{member.name}}</div>
+          <div class="team-designation">{{member.designation}}</div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+</section>

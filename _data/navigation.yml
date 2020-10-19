@@ -1,0 +1,8 @@
+- text: About
+  url: /#hero
+- text: Service
+  url: /#service
+- text: Our Team
+  url: /#team
+- text: Contact
+  url: /#contact
