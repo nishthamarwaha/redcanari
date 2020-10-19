@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #4d4d4d;
@@ -35,7 +36,9 @@ body h1 {
 
   font-weight: 600 !important;
 }
-
+.no-br br {
+	display:none!important;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1528,4 +1531,33 @@ a.close-icon {
 }
 li.get-started {
   display: none;
+}
+
+
+
+.service-modal .modal-content {
+    padding: 0!important;
+}
+
+.service-modal .modal-header {
+    padding: 15px 30px;
+    background: #E30613;
+    color: #fff;
+}
+
+.service-modal .modal-header span {
+    color: #fff!important;
+    opacity: 1!important;
+    text-shadow: none;
+    z-index: 99;
+}
+
+.service-modal .modal-header .close {
+    opacity: 1;
+    visibility: visible;
+    font-size: 32px;
+}
+
+.service-modal .modal-body {
+    padding: 15px 30px;
 }

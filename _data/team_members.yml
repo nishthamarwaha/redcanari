@@ -1,32 +1,48 @@
 - name: Tony Kanjirappally 
-  img: /assets/img/team/tony.JPG
+  img: /assets/img/team/tony.jpg
   designation: MANAGING PARTNER, CEO
 
 - name: Nadeem Douba
-  img: /assets/img/team/naedm.JPG
+  img: /assets/img/team/naedm.jpg
   designation: MANAGING PARTNER, CTO
 
 - name: David Mussington 
-  img: /assets/img/team/david.JPG
-  designation: CYBER RISK DIRECTOR
+  img: /assets/img/team/david.jpg
+  designation: Cyber Risk Director
 
 - name: Dan Lesage
-  img: /assets/img/team/dan.JPG
-  designation: ENGINEERING DIRECTOR
+  img: /assets/img/team/dan.jpg
+  designation: Engineering Director
 
 - name: Philip Elsas 
-  img: /assets/img/team/philip.JPG
-  designation: ASSURANCE & AUDIT DIRECTOR
+  img: /assets/img/team/philip.jpg
+  designation: Assurance & Audit Director
 
 - name: Delon Young 
-  img: /assets/img/team/delon.JPG
-  designation: SALES DIRECTOR
+  img: /assets/img/team/delon.jpg
+  designation: Sales Director
 
 - name: Ahmed Shah 
-  img: /assets/img/team/amed.JPG
-  designation: DIRECTOR, SECURITY R&D
+  img: /assets/img/team/amed.jpg
+  designation: Director, Security R&D
+
+- name: Andrew Fisk
+  img: /assets/img/team/Andrew.jpg
+  designation: Executive Advisor, GRC
+  
+- name: Chris Summer
+  img: /assets/img/team/Chris.jpg
+  designation: Executive Advisor, GRC
+
+- name: Philip George
+  img: /assets/img/team/PhilipGeorge.jpg
+  designation: Director, Corporate Development
 
 - name: Rutvik Gajjar 
-  img: /assets/img/team/rutvik.JPG
-  designation: SECURITYANALYST
+  img: /assets/img/team/rutvik.jpg
+  designation: Security Analyst
+
+- name: Harsimran Kanwar
+  img: /assets/img/team/Harsimran.jpg
+  designation: Security Analyst
 
